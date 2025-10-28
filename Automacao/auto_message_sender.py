@@ -431,6 +431,8 @@ def mensagem_informacoes():
 
 paginas_planilha[1]['B3'].value = -100
 
+
+# Colocando clientes nas listas adequadas
 for i in range(len(paginas)):
     #print(f"\n----- {paginas[i]} -----")
     for indice, linha in enumerate(paginas_planilha[i].iter_rows(values_only=True)):
